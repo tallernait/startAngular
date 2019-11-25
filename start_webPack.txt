@@ -1,0 +1,2 @@
+npm init -y 
+npm i webpack webpack-cli webpack-dev-server style-loader sass-loader node-sass mini-css-extract-plugin html-webpack-plugin css-loader

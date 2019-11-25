@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../lib/angular.js"></script>
+</head>
+<body ng-app="todoApp">
+
+        <div ng-controller="testCtrl as ctrl">
+            {{ctrl.serv.data}}
+            <button ng-click="ctrl.serv.add(ctrl.serv.data.length)">Add</button>
+            <button ng-click="ctrl.serv.rem(1)">Rem</button>
+        </div>
+</body>
+</html>
