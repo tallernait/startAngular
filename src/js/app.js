@@ -1,12 +1,5 @@
 import "../css/style.scss"
 import "./serviceTodo"
+import "./list/list"
 
-
-class listTodo{
-    constructor(serv) {
-        this.serv = serv
-    }
-}
-
-angular.module('todoApp', ['todoApp.service'])
-    .controller('testCtrl', ['todoServiceName', listTodo])
+angular.module('todoApp', ['todoApp.listTodo'])

@@ -2,7 +2,7 @@
 // npm install webpack-dev-server           ////// para tener un servidor con web pack y hacer modificationes live
 //                                                  npx webpack-dev-server 
 // npm i style-loader css-loader            ////// Para cargar css en el package   
-'use strict'
+'use strict';
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
